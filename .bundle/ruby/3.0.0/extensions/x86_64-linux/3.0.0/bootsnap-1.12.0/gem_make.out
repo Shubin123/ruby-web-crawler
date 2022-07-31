@@ -1,0 +1,15 @@
+current directory: /home/runner/Ruby-302/.bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+/nix/store/kxfnc58wvl1grqzvq8qxwqgbj4q3bfxl-ruby-3.0.2/bin/ruby -I /nix/store/kxfnc58wvl1grqzvq8qxwqgbj4q3bfxl-ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20220731-236-bu2wu5.rb extconf.rb
+creating Makefile
+
+current directory: /home/runner/Ruby-302/.bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/runner/Ruby-302/.bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/runner/Ruby-302/.bundle/ruby/3.0.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= install
+/nix/store/1570w56jrkvr90w9x158vyb5vahnk18v-coreutils-8.32/bin/install -c -m 0755 bootsnap.so ./.gem.20220731-236-27pz5h/bootsnap

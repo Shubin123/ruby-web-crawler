@@ -1,0 +1,20 @@
+current directory: /home/runner/Ruby-302/.bundle/ruby/3.0.0/gems/puma-5.6.4/ext/puma_http11
+/nix/store/kxfnc58wvl1grqzvq8qxwqgbj4q3bfxl-ruby-3.0.2/bin/ruby -I /nix/store/kxfnc58wvl1grqzvq8qxwqgbj4q3bfxl-ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20220731-236-ymjtm0.rb extconf.rb
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+** Puma will be compiled without SSL support
+creating Makefile
+
+current directory: /home/runner/Ruby-302/.bundle/ruby/3.0.0/gems/puma-5.6.4/ext/puma_http11
+make DESTDIR\= clean
+
+current directory: /home/runner/Ruby-302/.bundle/ruby/3.0.0/gems/puma-5.6.4/ext/puma_http11
+make DESTDIR\=
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/runner/Ruby-302/.bundle/ruby/3.0.0/gems/puma-5.6.4/ext/puma_http11
+make DESTDIR\= install
+/nix/store/1570w56jrkvr90w9x158vyb5vahnk18v-coreutils-8.32/bin/install -c -m 0755 puma_http11.so ./.gem.20220731-236-ke2j7n/puma
