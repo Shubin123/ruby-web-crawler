@@ -43,7 +43,7 @@ class Gen_mech
     return sitesfromurls
   end
 
-  def parse_for_class(tag, classname)
+  def parse_for_class(tag, classname = "")
     # returns an array of element text values from a given tag and css classname
     # 2d dict for {ogurls => {itemname:price...}...}
     pricesfromurls = {}
@@ -56,19 +56,41 @@ class Gen_mech
         ele = @mech.get(url).css("#{tag}")
       end
 
-
+      puts ele
       unfiltered_array = []
-  
-      puts ele, @mech.get(url)
+      # puts ele
       ele.each do |item|
 
-        unfiltered_array << item.text.to_s
+        unfiltered_array << item
       end
       # puts unfiltered_array.inspect
       pricesfromurls[url] = unfiltered_array
     end
-    # return pricesfromurls
-  end
+  return pricesfromurls
 end
 
+def hard_parse_for_class(tag, classname = "")
+    # returns an array of element text values from a given tag and css classname
+    # 2d dict for {ogurls => {itemname:price...}...}
+    pricesfromurls = {}
+    @urls.each do |url|
 
+      if classname != ""
+        ele = @mech.get(url).css("#{tag}.#{classname}")
+      else
+        ele = @mech.get(url).css("#{tag}")
+      end
+
+      puts ele
+      unfiltered_array = []
+      # puts ele
+      ele.each do |item|
+
+        unfiltered_array << item.text
+      end
+      # puts unfiltered_array.inspect
+      pricesfromurls[url] = unfiltered_array
+    end
+    return pricesfromurls
+end
+end
