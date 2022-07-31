@@ -9,8 +9,20 @@ PS: Seems like replit is chill with webcrawlers
 
 ## Help related to running this crawler 
 
-run in cli:
-bundle exec ruby main.rb https://www.google.com/ https://www.reddit.com/ <website-url> ...
+run in cli
+
+command 1 links
+> """> bundle exec ruby main.rb links <url1> <url2> ..."""
+> 
+> """> bundle exec ruby main.rb links https://foo.com/ """
+ 
+command 2 scrape + scrape2
+
+> """> bundle exec ruby main.rb scrape2 <url> <tag> <classname> """
+> 
+> """> bundle exec ruby main.rb scrape2 https://foo.com/ span cards """
+
+classname does not have to be provided scrape2 is a no text version of response with nokogiri element types
 
 ACCESS mech constructor through mech.rb using mechnizer scripts.
 

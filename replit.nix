@@ -1,5 +1,8 @@
 { pkgs }: {
 	deps = [
+        pkgs.systemdMinimal
+        pkgs.sudo
+        pkgs.openafs_1_9
         pkgs.ruby_3_0
         pkgs.gotools
         pkgs.ruby_3_0

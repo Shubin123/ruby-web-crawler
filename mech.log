@@ -1,0 +1,160 @@
+I, [2022-07-31T10:26:43.088541 #827]  INFO -- : Net::HTTP::Get: /
+D, [2022-07-31T10:26:43.088675 #827] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2022-07-31T10:26:43.088763 #827] DEBUG -- : request-header: accept => */*
+D, [2022-07-31T10:26:43.088828 #827] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2022-07-31T10:26:43.088870 #827] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2022-07-31T10:26:43.088914 #827] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2022-07-31T10:26:43.088959 #827] DEBUG -- : request-header: host => google.com
+I, [2022-07-31T10:26:43.214642 #827]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2022-07-31T10:26:43.214794 #827] DEBUG -- : response-header: location => https://www.google.com/
+D, [2022-07-31T10:26:43.214850 #827] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2022-07-31T10:26:43.214907 #827] DEBUG -- : response-header: date => Sun, 31 Jul 2022 10:26:43 GMT
+D, [2022-07-31T10:26:43.214960 #827] DEBUG -- : response-header: expires => Tue, 30 Aug 2022 10:26:43 GMT
+D, [2022-07-31T10:26:43.215011 #827] DEBUG -- : response-header: cache-control => public, max-age=2592000
+D, [2022-07-31T10:26:43.215087 #827] DEBUG -- : response-header: server => gws
+D, [2022-07-31T10:26:43.215142 #827] DEBUG -- : response-header: content-length => 220
+D, [2022-07-31T10:26:43.215198 #827] DEBUG -- : response-header: x-xss-protection => 0
+D, [2022-07-31T10:26:43.215290 #827] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2022-07-31T10:26:43.215464 #827] DEBUG -- : Read 220 bytes (220 total)
+I, [2022-07-31T10:26:43.216223 #827]  INFO -- : follow redirect to: https://www.google.com/
+I, [2022-07-31T10:26:43.216680 #827]  INFO -- : Net::HTTP::Get: /
+D, [2022-07-31T10:26:43.216760 #827] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2022-07-31T10:26:43.216819 #827] DEBUG -- : request-header: accept => */*
+D, [2022-07-31T10:26:43.216870 #827] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2022-07-31T10:26:43.216923 #827] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2022-07-31T10:26:43.216984 #827] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2022-07-31T10:26:43.217061 #827] DEBUG -- : request-header: host => www.google.com
+I, [2022-07-31T10:26:43.384510 #827]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2022-07-31T10:26:43.384679 #827] DEBUG -- : response-header: date => Sun, 31 Jul 2022 10:26:43 GMT
+D, [2022-07-31T10:26:43.384724 #827] DEBUG -- : response-header: expires => -1
+D, [2022-07-31T10:26:43.384773 #827] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2022-07-31T10:26:43.384800 #827] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2022-07-31T10:26:43.384864 #827] DEBUG -- : response-header: strict-transport-security => max-age=31536000
+D, [2022-07-31T10:26:43.384930 #827] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See g.co/p3phelp for more info."
+D, [2022-07-31T10:26:43.384985 #827] DEBUG -- : response-header: content-encoding => gzip
+D, [2022-07-31T10:26:43.385026 #827] DEBUG -- : response-header: server => gws
+D, [2022-07-31T10:26:43.385053 #827] DEBUG -- : response-header: x-xss-protection => 0
+D, [2022-07-31T10:26:43.385087 #827] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2022-07-31T10:26:43.385123 #827] DEBUG -- : response-header: set-cookie => 1P_JAR=2022-07-31-10; expires=Tue, 30-Aug-2022 10:26:43 GMT; path=/; domain=.google.com; Secure; SameSite=none, AEC=AakniGNLAXVFP9iljidDG82f15S4ShiAVUsGnfPNe62nMtqXsAKIQl0QugM; expires=Fri, 27-Jan-2023 10:26:43 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=511=D8OAsx8qALtA3RyZlO0jYyN26lmDitQI89mQZJRbwfsCL_OeSyfribn-wKHOgC1BRBD8XiaOfY82I3KcWmDMnhDAfbECILWZIDwYT5KQh2gMA8n0VvXFjrReq3MDCSoohKPsyh8vPjjtMJP5iTP2LeHHNkirXqCyvN3s6v9quOE; expires=Mon, 30-Jan-2023 10:26:43 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none
+D, [2022-07-31T10:26:43.385234 #827] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2022-07-31T10:26:43.385366 #827] DEBUG -- : Read 1 bytes (1 total)
+D, [2022-07-31T10:26:43.385572 #827] DEBUG -- : Read 1 bytes (2 total)
+D, [2022-07-31T10:26:43.385659 #827] DEBUG -- : Read 1 bytes (3 total)
+D, [2022-07-31T10:26:43.385720 #827] DEBUG -- : Read 1 bytes (4 total)
+D, [2022-07-31T10:26:43.385756 #827] DEBUG -- : Read 1 bytes (5 total)
+D, [2022-07-31T10:26:43.385797 #827] DEBUG -- : Read 1 bytes (6 total)
+D, [2022-07-31T10:26:43.385843 #827] DEBUG -- : Read 1 bytes (7 total)
+D, [2022-07-31T10:26:43.385913 #827] DEBUG -- : Read 1 bytes (8 total)
+D, [2022-07-31T10:26:43.386004 #827] DEBUG -- : Read 1 bytes (9 total)
+D, [2022-07-31T10:26:43.386051 #827] DEBUG -- : Read 1 bytes (10 total)
+D, [2022-07-31T10:26:43.386074 #827] DEBUG -- : Read 1 bytes (11 total)
+D, [2022-07-31T10:26:43.386104 #827] DEBUG -- : Read 1 bytes (12 total)
+D, [2022-07-31T10:26:43.386145 #827] DEBUG -- : Read 1 bytes (13 total)
+D, [2022-07-31T10:26:43.386174 #827] DEBUG -- : Read 1 bytes (14 total)
+D, [2022-07-31T10:26:43.386214 #827] DEBUG -- : Read 230 bytes (244 total)
+D, [2022-07-31T10:26:43.386302 #827] DEBUG -- : Read 1386 bytes (1630 total)
+D, [2022-07-31T10:26:43.386357 #827] DEBUG -- : Read 1386 bytes (3016 total)
+D, [2022-07-31T10:26:43.386416 #827] DEBUG -- : Read 1386 bytes (4402 total)
+D, [2022-07-31T10:26:43.386492 #827] DEBUG -- : Read 1386 bytes (5788 total)
+D, [2022-07-31T10:26:43.386554 #827] DEBUG -- : Read 698 bytes (6486 total)
+D, [2022-07-31T10:26:43.386678 #827] DEBUG -- : Read 1 bytes (6487 total)
+D, [2022-07-31T10:26:43.386754 #827] DEBUG -- : Read 1 bytes (6488 total)
+D, [2022-07-31T10:26:43.386816 #827] DEBUG -- : Read 1 bytes (6489 total)
+D, [2022-07-31T10:26:43.386885 #827] DEBUG -- : Read 1 bytes (6490 total)
+D, [2022-07-31T10:26:43.386959 #827] DEBUG -- : Read 1 bytes (6491 total)
+D, [2022-07-31T10:26:43.387031 #827] DEBUG -- : Read 1 bytes (6492 total)
+D, [2022-07-31T10:26:43.387080 #827] DEBUG -- : Read 1 bytes (6493 total)
+D, [2022-07-31T10:26:43.387124 #827] DEBUG -- : Read 1 bytes (6494 total)
+D, [2022-07-31T10:26:43.387168 #827] DEBUG -- : Read 1 bytes (6495 total)
+D, [2022-07-31T10:26:43.387200 #827] DEBUG -- : Read 1 bytes (6496 total)
+D, [2022-07-31T10:26:43.387238 #827] DEBUG -- : Read 1 bytes (6497 total)
+D, [2022-07-31T10:26:43.387338 #827] DEBUG -- : Read 1 bytes (6498 total)
+D, [2022-07-31T10:26:43.387386 #827] DEBUG -- : Read 1 bytes (6499 total)
+D, [2022-07-31T10:26:43.387483 #827] DEBUG -- : Read 1 bytes (6500 total)
+D, [2022-07-31T10:26:43.387506 #827] DEBUG -- : Read 94 bytes (6594 total)
+D, [2022-07-31T10:26:43.399822 #827] DEBUG -- : Read 1 bytes (6595 total)
+D, [2022-07-31T10:26:43.399996 #827] DEBUG -- : Read 1 bytes (6596 total)
+D, [2022-07-31T10:26:43.400049 #827] DEBUG -- : Read 1 bytes (6597 total)
+D, [2022-07-31T10:26:43.400101 #827] DEBUG -- : Read 1 bytes (6598 total)
+D, [2022-07-31T10:26:43.400185 #827] DEBUG -- : Read 1 bytes (6599 total)
+D, [2022-07-31T10:26:43.400255 #827] DEBUG -- : Read 1 bytes (6600 total)
+D, [2022-07-31T10:26:43.400324 #827] DEBUG -- : Read 1 bytes (6601 total)
+D, [2022-07-31T10:26:43.400388 #827] DEBUG -- : Read 1 bytes (6602 total)
+D, [2022-07-31T10:26:43.400460 #827] DEBUG -- : Read 1 bytes (6603 total)
+D, [2022-07-31T10:26:43.400511 #827] DEBUG -- : Read 1 bytes (6604 total)
+D, [2022-07-31T10:26:43.400569 #827] DEBUG -- : Read 1 bytes (6605 total)
+D, [2022-07-31T10:26:43.400663 #827] DEBUG -- : Read 1 bytes (6606 total)
+D, [2022-07-31T10:26:43.400718 #827] DEBUG -- : Read 1 bytes (6607 total)
+D, [2022-07-31T10:26:43.400766 #827] DEBUG -- : Read 1 bytes (6608 total)
+D, [2022-07-31T10:26:43.400801 #827] DEBUG -- : Read 1 bytes (6609 total)
+D, [2022-07-31T10:26:43.400844 #827] DEBUG -- : Read 1184 bytes (7793 total)
+D, [2022-07-31T10:26:43.400957 #827] DEBUG -- : Read 1386 bytes (9179 total)
+D, [2022-07-31T10:26:43.401058 #827] DEBUG -- : Read 1386 bytes (10565 total)
+D, [2022-07-31T10:26:43.401176 #827] DEBUG -- : Read 1386 bytes (11951 total)
+D, [2022-07-31T10:26:43.401266 #827] DEBUG -- : Read 1386 bytes (13337 total)
+D, [2022-07-31T10:26:43.401360 #827] DEBUG -- : Read 1386 bytes (14723 total)
+D, [2022-07-31T10:26:43.401420 #827] DEBUG -- : Read 63 bytes (14786 total)
+D, [2022-07-31T10:26:43.401484 #827] DEBUG -- : Read 1 bytes (14787 total)
+D, [2022-07-31T10:26:43.401553 #827] DEBUG -- : Read 1 bytes (14788 total)
+D, [2022-07-31T10:26:43.401640 #827] DEBUG -- : Read 1 bytes (14789 total)
+D, [2022-07-31T10:26:43.401705 #827] DEBUG -- : Read 1 bytes (14790 total)
+D, [2022-07-31T10:26:43.401772 #827] DEBUG -- : Read 1 bytes (14791 total)
+D, [2022-07-31T10:26:43.401837 #827] DEBUG -- : Read 1320 bytes (16111 total)
+D, [2022-07-31T10:26:43.401927 #827] DEBUG -- : Read 1386 bytes (17497 total)
+D, [2022-07-31T10:26:43.402004 #827] DEBUG -- : Read 1386 bytes (18883 total)
+D, [2022-07-31T10:26:43.402074 #827] DEBUG -- : Read 1386 bytes (20269 total)
+D, [2022-07-31T10:26:43.402144 #827] DEBUG -- : Read 1386 bytes (21655 total)
+D, [2022-07-31T10:26:43.402226 #827] DEBUG -- : Read 1323 bytes (22978 total)
+D, [2022-07-31T10:26:43.405312 #827] DEBUG -- : Read 1377 bytes (24355 total)
+D, [2022-07-31T10:26:43.405461 #827] DEBUG -- : Read 1386 bytes (25741 total)
+D, [2022-07-31T10:26:43.405563 #827] DEBUG -- : Read 1386 bytes (27127 total)
+D, [2022-07-31T10:26:43.405659 #827] DEBUG -- : Read 1386 bytes (28513 total)
+D, [2022-07-31T10:26:43.405750 #827] DEBUG -- : Read 1386 bytes (29899 total)
+D, [2022-07-31T10:26:43.405870 #827] DEBUG -- : Read 1271 bytes (31170 total)
+D, [2022-07-31T10:26:43.405967 #827] DEBUG -- : Read 1 bytes (31171 total)
+D, [2022-07-31T10:26:43.406022 #827] DEBUG -- : Read 1 bytes (31172 total)
+D, [2022-07-31T10:26:43.406096 #827] DEBUG -- : Read 1 bytes (31173 total)
+D, [2022-07-31T10:26:43.406145 #827] DEBUG -- : Read 1 bytes (31174 total)
+D, [2022-07-31T10:26:43.406190 #827] DEBUG -- : Read 1328 bytes (32502 total)
+D, [2022-07-31T10:26:43.406255 #827] DEBUG -- : Read 1386 bytes (33888 total)
+D, [2022-07-31T10:26:43.406347 #827] DEBUG -- : Read 1386 bytes (35274 total)
+D, [2022-07-31T10:26:43.406425 #827] DEBUG -- : Read 1386 bytes (36660 total)
+D, [2022-07-31T10:26:43.406501 #827] DEBUG -- : Read 1386 bytes (38046 total)
+D, [2022-07-31T10:26:43.406580 #827] DEBUG -- : Read 1316 bytes (39362 total)
+D, [2022-07-31T10:26:43.408269 #827] DEBUG -- : Read 1 bytes (39363 total)
+D, [2022-07-31T10:26:43.408380 #827] DEBUG -- : Read 1 bytes (39364 total)
+D, [2022-07-31T10:26:43.408467 #827] DEBUG -- : Read 1 bytes (39365 total)
+D, [2022-07-31T10:26:43.408532 #827] DEBUG -- : Read 1 bytes (39366 total)
+D, [2022-07-31T10:26:43.408600 #827] DEBUG -- : Read 1 bytes (39367 total)
+D, [2022-07-31T10:26:43.408676 #827] DEBUG -- : Read 1 bytes (39368 total)
+D, [2022-07-31T10:26:43.408865 #827] DEBUG -- : Read 1 bytes (39369 total)
+D, [2022-07-31T10:26:43.408938 #827] DEBUG -- : Read 1286 bytes (40655 total)
+D, [2022-07-31T10:26:43.409023 #827] DEBUG -- : Read 1386 bytes (42041 total)
+D, [2022-07-31T10:26:43.409119 #827] DEBUG -- : Read 1386 bytes (43427 total)
+D, [2022-07-31T10:26:43.409209 #827] DEBUG -- : Read 1386 bytes (44813 total)
+D, [2022-07-31T10:26:43.409274 #827] DEBUG -- : Read 1386 bytes (46199 total)
+D, [2022-07-31T10:26:43.409348 #827] DEBUG -- : Read 1355 bytes (47554 total)
+D, [2022-07-31T10:26:43.409428 #827] DEBUG -- : Read 1 bytes (47555 total)
+D, [2022-07-31T10:26:43.409484 #827] DEBUG -- : Read 1 bytes (47556 total)
+D, [2022-07-31T10:26:43.409533 #827] DEBUG -- : Read 1 bytes (47557 total)
+D, [2022-07-31T10:26:43.409582 #827] DEBUG -- : Read 1 bytes (47558 total)
+D, [2022-07-31T10:26:43.409633 #827] DEBUG -- : Read 1 bytes (47559 total)
+D, [2022-07-31T10:26:43.409696 #827] DEBUG -- : Read 1 bytes (47560 total)
+D, [2022-07-31T10:26:43.409745 #827] DEBUG -- : Read 1 bytes (47561 total)
+D, [2022-07-31T10:26:43.409818 #827] DEBUG -- : Read 1 bytes (47562 total)
+D, [2022-07-31T10:26:43.409896 #827] DEBUG -- : Read 1 bytes (47563 total)
+D, [2022-07-31T10:26:43.409948 #827] DEBUG -- : Read 1 bytes (47564 total)
+D, [2022-07-31T10:26:43.409993 #827] DEBUG -- : Read 1 bytes (47565 total)
+D, [2022-07-31T10:26:43.410045 #827] DEBUG -- : Read 1 bytes (47566 total)
+D, [2022-07-31T10:26:43.410112 #827] DEBUG -- : Read 1109 bytes (48675 total)
+D, [2022-07-31T10:26:43.410348 #827] DEBUG -- : gzip response
+D, [2022-07-31T10:26:43.425474 #827] DEBUG -- : saved cookie: 1P_JAR=2022-07-31-10
+D, [2022-07-31T10:26:43.425843 #827] DEBUG -- : saved cookie: AEC=AakniGNLAXVFP9iljidDG82f15S4ShiAVUsGnfPNe62nMtqXsAKIQl0QugM
+D, [2022-07-31T10:26:43.426124 #827] DEBUG -- : saved cookie: NID=511=D8OAsx8qALtA3RyZlO0jYyN26lmDitQI89mQZJRbwfsCL_OeSyfribn-wKHOgC1BRBD8XiaOfY82I3KcWmDMnhDAfbECILWZIDwYT5KQh2gMA8n0VvXFjrReq3MDCSoohKPsyh8vPjjtMJP5iTP2LeHHNkirXqCyvN3s6v9quOE
+I, [2022-07-31T10:26:54.789362 #844]  INFO -- : Net::HTTP::Get: /
+D, [2022-07-31T10:26:54.789497 #844] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2022-07-31T10:26:54.789564 #844] DEBUG -- : request-header: accept => */*
+D, [2022-07-31T10:26:54.789610 #844] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2022-07-31T10:26:54.789647 #844] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2022-07-31T10:26:54.789670 #844] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2022-07-31T10:26:54.789691 #844] DEBUG -- : request-header: host => pornhub.com
