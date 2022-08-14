@@ -1,160 +1,278 @@
-I, [2022-07-31T10:26:43.088541 #827]  INFO -- : Net::HTTP::Get: /
-D, [2022-07-31T10:26:43.088675 #827] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
-D, [2022-07-31T10:26:43.088763 #827] DEBUG -- : request-header: accept => */*
-D, [2022-07-31T10:26:43.088828 #827] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
-D, [2022-07-31T10:26:43.088870 #827] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
-D, [2022-07-31T10:26:43.088914 #827] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
-D, [2022-07-31T10:26:43.088959 #827] DEBUG -- : request-header: host => google.com
-I, [2022-07-31T10:26:43.214642 #827]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
-D, [2022-07-31T10:26:43.214794 #827] DEBUG -- : response-header: location => https://www.google.com/
-D, [2022-07-31T10:26:43.214850 #827] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
-D, [2022-07-31T10:26:43.214907 #827] DEBUG -- : response-header: date => Sun, 31 Jul 2022 10:26:43 GMT
-D, [2022-07-31T10:26:43.214960 #827] DEBUG -- : response-header: expires => Tue, 30 Aug 2022 10:26:43 GMT
-D, [2022-07-31T10:26:43.215011 #827] DEBUG -- : response-header: cache-control => public, max-age=2592000
-D, [2022-07-31T10:26:43.215087 #827] DEBUG -- : response-header: server => gws
-D, [2022-07-31T10:26:43.215142 #827] DEBUG -- : response-header: content-length => 220
-D, [2022-07-31T10:26:43.215198 #827] DEBUG -- : response-header: x-xss-protection => 0
-D, [2022-07-31T10:26:43.215290 #827] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
-D, [2022-07-31T10:26:43.215464 #827] DEBUG -- : Read 220 bytes (220 total)
-I, [2022-07-31T10:26:43.216223 #827]  INFO -- : follow redirect to: https://www.google.com/
-I, [2022-07-31T10:26:43.216680 #827]  INFO -- : Net::HTTP::Get: /
-D, [2022-07-31T10:26:43.216760 #827] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
-D, [2022-07-31T10:26:43.216819 #827] DEBUG -- : request-header: accept => */*
-D, [2022-07-31T10:26:43.216870 #827] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
-D, [2022-07-31T10:26:43.216923 #827] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
-D, [2022-07-31T10:26:43.216984 #827] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
-D, [2022-07-31T10:26:43.217061 #827] DEBUG -- : request-header: host => www.google.com
-I, [2022-07-31T10:26:43.384510 #827]  INFO -- : status: Net::HTTPOK 1.1 200 OK
-D, [2022-07-31T10:26:43.384679 #827] DEBUG -- : response-header: date => Sun, 31 Jul 2022 10:26:43 GMT
-D, [2022-07-31T10:26:43.384724 #827] DEBUG -- : response-header: expires => -1
-D, [2022-07-31T10:26:43.384773 #827] DEBUG -- : response-header: cache-control => private, max-age=0
-D, [2022-07-31T10:26:43.384800 #827] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
-D, [2022-07-31T10:26:43.384864 #827] DEBUG -- : response-header: strict-transport-security => max-age=31536000
-D, [2022-07-31T10:26:43.384930 #827] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See g.co/p3phelp for more info."
-D, [2022-07-31T10:26:43.384985 #827] DEBUG -- : response-header: content-encoding => gzip
-D, [2022-07-31T10:26:43.385026 #827] DEBUG -- : response-header: server => gws
-D, [2022-07-31T10:26:43.385053 #827] DEBUG -- : response-header: x-xss-protection => 0
-D, [2022-07-31T10:26:43.385087 #827] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
-D, [2022-07-31T10:26:43.385123 #827] DEBUG -- : response-header: set-cookie => 1P_JAR=2022-07-31-10; expires=Tue, 30-Aug-2022 10:26:43 GMT; path=/; domain=.google.com; Secure; SameSite=none, AEC=AakniGNLAXVFP9iljidDG82f15S4ShiAVUsGnfPNe62nMtqXsAKIQl0QugM; expires=Fri, 27-Jan-2023 10:26:43 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=511=D8OAsx8qALtA3RyZlO0jYyN26lmDitQI89mQZJRbwfsCL_OeSyfribn-wKHOgC1BRBD8XiaOfY82I3KcWmDMnhDAfbECILWZIDwYT5KQh2gMA8n0VvXFjrReq3MDCSoohKPsyh8vPjjtMJP5iTP2LeHHNkirXqCyvN3s6v9quOE; expires=Mon, 30-Jan-2023 10:26:43 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none
-D, [2022-07-31T10:26:43.385234 #827] DEBUG -- : response-header: transfer-encoding => chunked
-D, [2022-07-31T10:26:43.385366 #827] DEBUG -- : Read 1 bytes (1 total)
-D, [2022-07-31T10:26:43.385572 #827] DEBUG -- : Read 1 bytes (2 total)
-D, [2022-07-31T10:26:43.385659 #827] DEBUG -- : Read 1 bytes (3 total)
-D, [2022-07-31T10:26:43.385720 #827] DEBUG -- : Read 1 bytes (4 total)
-D, [2022-07-31T10:26:43.385756 #827] DEBUG -- : Read 1 bytes (5 total)
-D, [2022-07-31T10:26:43.385797 #827] DEBUG -- : Read 1 bytes (6 total)
-D, [2022-07-31T10:26:43.385843 #827] DEBUG -- : Read 1 bytes (7 total)
-D, [2022-07-31T10:26:43.385913 #827] DEBUG -- : Read 1 bytes (8 total)
-D, [2022-07-31T10:26:43.386004 #827] DEBUG -- : Read 1 bytes (9 total)
-D, [2022-07-31T10:26:43.386051 #827] DEBUG -- : Read 1 bytes (10 total)
-D, [2022-07-31T10:26:43.386074 #827] DEBUG -- : Read 1 bytes (11 total)
-D, [2022-07-31T10:26:43.386104 #827] DEBUG -- : Read 1 bytes (12 total)
-D, [2022-07-31T10:26:43.386145 #827] DEBUG -- : Read 1 bytes (13 total)
-D, [2022-07-31T10:26:43.386174 #827] DEBUG -- : Read 1 bytes (14 total)
-D, [2022-07-31T10:26:43.386214 #827] DEBUG -- : Read 230 bytes (244 total)
-D, [2022-07-31T10:26:43.386302 #827] DEBUG -- : Read 1386 bytes (1630 total)
-D, [2022-07-31T10:26:43.386357 #827] DEBUG -- : Read 1386 bytes (3016 total)
-D, [2022-07-31T10:26:43.386416 #827] DEBUG -- : Read 1386 bytes (4402 total)
-D, [2022-07-31T10:26:43.386492 #827] DEBUG -- : Read 1386 bytes (5788 total)
-D, [2022-07-31T10:26:43.386554 #827] DEBUG -- : Read 698 bytes (6486 total)
-D, [2022-07-31T10:26:43.386678 #827] DEBUG -- : Read 1 bytes (6487 total)
-D, [2022-07-31T10:26:43.386754 #827] DEBUG -- : Read 1 bytes (6488 total)
-D, [2022-07-31T10:26:43.386816 #827] DEBUG -- : Read 1 bytes (6489 total)
-D, [2022-07-31T10:26:43.386885 #827] DEBUG -- : Read 1 bytes (6490 total)
-D, [2022-07-31T10:26:43.386959 #827] DEBUG -- : Read 1 bytes (6491 total)
-D, [2022-07-31T10:26:43.387031 #827] DEBUG -- : Read 1 bytes (6492 total)
-D, [2022-07-31T10:26:43.387080 #827] DEBUG -- : Read 1 bytes (6493 total)
-D, [2022-07-31T10:26:43.387124 #827] DEBUG -- : Read 1 bytes (6494 total)
-D, [2022-07-31T10:26:43.387168 #827] DEBUG -- : Read 1 bytes (6495 total)
-D, [2022-07-31T10:26:43.387200 #827] DEBUG -- : Read 1 bytes (6496 total)
-D, [2022-07-31T10:26:43.387238 #827] DEBUG -- : Read 1 bytes (6497 total)
-D, [2022-07-31T10:26:43.387338 #827] DEBUG -- : Read 1 bytes (6498 total)
-D, [2022-07-31T10:26:43.387386 #827] DEBUG -- : Read 1 bytes (6499 total)
-D, [2022-07-31T10:26:43.387483 #827] DEBUG -- : Read 1 bytes (6500 total)
-D, [2022-07-31T10:26:43.387506 #827] DEBUG -- : Read 94 bytes (6594 total)
-D, [2022-07-31T10:26:43.399822 #827] DEBUG -- : Read 1 bytes (6595 total)
-D, [2022-07-31T10:26:43.399996 #827] DEBUG -- : Read 1 bytes (6596 total)
-D, [2022-07-31T10:26:43.400049 #827] DEBUG -- : Read 1 bytes (6597 total)
-D, [2022-07-31T10:26:43.400101 #827] DEBUG -- : Read 1 bytes (6598 total)
-D, [2022-07-31T10:26:43.400185 #827] DEBUG -- : Read 1 bytes (6599 total)
-D, [2022-07-31T10:26:43.400255 #827] DEBUG -- : Read 1 bytes (6600 total)
-D, [2022-07-31T10:26:43.400324 #827] DEBUG -- : Read 1 bytes (6601 total)
-D, [2022-07-31T10:26:43.400388 #827] DEBUG -- : Read 1 bytes (6602 total)
-D, [2022-07-31T10:26:43.400460 #827] DEBUG -- : Read 1 bytes (6603 total)
-D, [2022-07-31T10:26:43.400511 #827] DEBUG -- : Read 1 bytes (6604 total)
-D, [2022-07-31T10:26:43.400569 #827] DEBUG -- : Read 1 bytes (6605 total)
-D, [2022-07-31T10:26:43.400663 #827] DEBUG -- : Read 1 bytes (6606 total)
-D, [2022-07-31T10:26:43.400718 #827] DEBUG -- : Read 1 bytes (6607 total)
-D, [2022-07-31T10:26:43.400766 #827] DEBUG -- : Read 1 bytes (6608 total)
-D, [2022-07-31T10:26:43.400801 #827] DEBUG -- : Read 1 bytes (6609 total)
-D, [2022-07-31T10:26:43.400844 #827] DEBUG -- : Read 1184 bytes (7793 total)
-D, [2022-07-31T10:26:43.400957 #827] DEBUG -- : Read 1386 bytes (9179 total)
-D, [2022-07-31T10:26:43.401058 #827] DEBUG -- : Read 1386 bytes (10565 total)
-D, [2022-07-31T10:26:43.401176 #827] DEBUG -- : Read 1386 bytes (11951 total)
-D, [2022-07-31T10:26:43.401266 #827] DEBUG -- : Read 1386 bytes (13337 total)
-D, [2022-07-31T10:26:43.401360 #827] DEBUG -- : Read 1386 bytes (14723 total)
-D, [2022-07-31T10:26:43.401420 #827] DEBUG -- : Read 63 bytes (14786 total)
-D, [2022-07-31T10:26:43.401484 #827] DEBUG -- : Read 1 bytes (14787 total)
-D, [2022-07-31T10:26:43.401553 #827] DEBUG -- : Read 1 bytes (14788 total)
-D, [2022-07-31T10:26:43.401640 #827] DEBUG -- : Read 1 bytes (14789 total)
-D, [2022-07-31T10:26:43.401705 #827] DEBUG -- : Read 1 bytes (14790 total)
-D, [2022-07-31T10:26:43.401772 #827] DEBUG -- : Read 1 bytes (14791 total)
-D, [2022-07-31T10:26:43.401837 #827] DEBUG -- : Read 1320 bytes (16111 total)
-D, [2022-07-31T10:26:43.401927 #827] DEBUG -- : Read 1386 bytes (17497 total)
-D, [2022-07-31T10:26:43.402004 #827] DEBUG -- : Read 1386 bytes (18883 total)
-D, [2022-07-31T10:26:43.402074 #827] DEBUG -- : Read 1386 bytes (20269 total)
-D, [2022-07-31T10:26:43.402144 #827] DEBUG -- : Read 1386 bytes (21655 total)
-D, [2022-07-31T10:26:43.402226 #827] DEBUG -- : Read 1323 bytes (22978 total)
-D, [2022-07-31T10:26:43.405312 #827] DEBUG -- : Read 1377 bytes (24355 total)
-D, [2022-07-31T10:26:43.405461 #827] DEBUG -- : Read 1386 bytes (25741 total)
-D, [2022-07-31T10:26:43.405563 #827] DEBUG -- : Read 1386 bytes (27127 total)
-D, [2022-07-31T10:26:43.405659 #827] DEBUG -- : Read 1386 bytes (28513 total)
-D, [2022-07-31T10:26:43.405750 #827] DEBUG -- : Read 1386 bytes (29899 total)
-D, [2022-07-31T10:26:43.405870 #827] DEBUG -- : Read 1271 bytes (31170 total)
-D, [2022-07-31T10:26:43.405967 #827] DEBUG -- : Read 1 bytes (31171 total)
-D, [2022-07-31T10:26:43.406022 #827] DEBUG -- : Read 1 bytes (31172 total)
-D, [2022-07-31T10:26:43.406096 #827] DEBUG -- : Read 1 bytes (31173 total)
-D, [2022-07-31T10:26:43.406145 #827] DEBUG -- : Read 1 bytes (31174 total)
-D, [2022-07-31T10:26:43.406190 #827] DEBUG -- : Read 1328 bytes (32502 total)
-D, [2022-07-31T10:26:43.406255 #827] DEBUG -- : Read 1386 bytes (33888 total)
-D, [2022-07-31T10:26:43.406347 #827] DEBUG -- : Read 1386 bytes (35274 total)
-D, [2022-07-31T10:26:43.406425 #827] DEBUG -- : Read 1386 bytes (36660 total)
-D, [2022-07-31T10:26:43.406501 #827] DEBUG -- : Read 1386 bytes (38046 total)
-D, [2022-07-31T10:26:43.406580 #827] DEBUG -- : Read 1316 bytes (39362 total)
-D, [2022-07-31T10:26:43.408269 #827] DEBUG -- : Read 1 bytes (39363 total)
-D, [2022-07-31T10:26:43.408380 #827] DEBUG -- : Read 1 bytes (39364 total)
-D, [2022-07-31T10:26:43.408467 #827] DEBUG -- : Read 1 bytes (39365 total)
-D, [2022-07-31T10:26:43.408532 #827] DEBUG -- : Read 1 bytes (39366 total)
-D, [2022-07-31T10:26:43.408600 #827] DEBUG -- : Read 1 bytes (39367 total)
-D, [2022-07-31T10:26:43.408676 #827] DEBUG -- : Read 1 bytes (39368 total)
-D, [2022-07-31T10:26:43.408865 #827] DEBUG -- : Read 1 bytes (39369 total)
-D, [2022-07-31T10:26:43.408938 #827] DEBUG -- : Read 1286 bytes (40655 total)
-D, [2022-07-31T10:26:43.409023 #827] DEBUG -- : Read 1386 bytes (42041 total)
-D, [2022-07-31T10:26:43.409119 #827] DEBUG -- : Read 1386 bytes (43427 total)
-D, [2022-07-31T10:26:43.409209 #827] DEBUG -- : Read 1386 bytes (44813 total)
-D, [2022-07-31T10:26:43.409274 #827] DEBUG -- : Read 1386 bytes (46199 total)
-D, [2022-07-31T10:26:43.409348 #827] DEBUG -- : Read 1355 bytes (47554 total)
-D, [2022-07-31T10:26:43.409428 #827] DEBUG -- : Read 1 bytes (47555 total)
-D, [2022-07-31T10:26:43.409484 #827] DEBUG -- : Read 1 bytes (47556 total)
-D, [2022-07-31T10:26:43.409533 #827] DEBUG -- : Read 1 bytes (47557 total)
-D, [2022-07-31T10:26:43.409582 #827] DEBUG -- : Read 1 bytes (47558 total)
-D, [2022-07-31T10:26:43.409633 #827] DEBUG -- : Read 1 bytes (47559 total)
-D, [2022-07-31T10:26:43.409696 #827] DEBUG -- : Read 1 bytes (47560 total)
-D, [2022-07-31T10:26:43.409745 #827] DEBUG -- : Read 1 bytes (47561 total)
-D, [2022-07-31T10:26:43.409818 #827] DEBUG -- : Read 1 bytes (47562 total)
-D, [2022-07-31T10:26:43.409896 #827] DEBUG -- : Read 1 bytes (47563 total)
-D, [2022-07-31T10:26:43.409948 #827] DEBUG -- : Read 1 bytes (47564 total)
-D, [2022-07-31T10:26:43.409993 #827] DEBUG -- : Read 1 bytes (47565 total)
-D, [2022-07-31T10:26:43.410045 #827] DEBUG -- : Read 1 bytes (47566 total)
-D, [2022-07-31T10:26:43.410112 #827] DEBUG -- : Read 1109 bytes (48675 total)
-D, [2022-07-31T10:26:43.410348 #827] DEBUG -- : gzip response
-D, [2022-07-31T10:26:43.425474 #827] DEBUG -- : saved cookie: 1P_JAR=2022-07-31-10
-D, [2022-07-31T10:26:43.425843 #827] DEBUG -- : saved cookie: AEC=AakniGNLAXVFP9iljidDG82f15S4ShiAVUsGnfPNe62nMtqXsAKIQl0QugM
-D, [2022-07-31T10:26:43.426124 #827] DEBUG -- : saved cookie: NID=511=D8OAsx8qALtA3RyZlO0jYyN26lmDitQI89mQZJRbwfsCL_OeSyfribn-wKHOgC1BRBD8XiaOfY82I3KcWmDMnhDAfbECILWZIDwYT5KQh2gMA8n0VvXFjrReq3MDCSoohKPsyh8vPjjtMJP5iTP2LeHHNkirXqCyvN3s6v9quOE
-I, [2022-07-31T10:26:54.789362 #844]  INFO -- : Net::HTTP::Get: /
-D, [2022-07-31T10:26:54.789497 #844] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
-D, [2022-07-31T10:26:54.789564 #844] DEBUG -- : request-header: accept => */*
-D, [2022-07-31T10:26:54.789610 #844] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
-D, [2022-07-31T10:26:54.789647 #844] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
-D, [2022-07-31T10:26:54.789670 #844] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
-D, [2022-07-31T10:26:54.789691 #844] DEBUG -- : request-header: host => pornhub.com
+I, [2022-08-14T03:55:19.375155 #1310]  INFO -- : Net::HTTP::Get: /
+D, [2022-08-14T03:55:19.375277 #1310] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2022-08-14T03:55:19.375337 #1310] DEBUG -- : request-header: accept => */*
+D, [2022-08-14T03:55:19.375390 #1310] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2022-08-14T03:55:19.375442 #1310] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2022-08-14T03:55:19.375505 #1310] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2022-08-14T03:55:19.375558 #1310] DEBUG -- : request-header: host => www.amazon.com
+I, [2022-08-14T03:55:19.545686 #1310]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2022-08-14T03:55:19.545800 #1310] DEBUG -- : response-header: connection => keep-alive
+D, [2022-08-14T03:55:19.545857 #1310] DEBUG -- : response-header: server => Server
+D, [2022-08-14T03:55:19.545924 #1310] DEBUG -- : response-header: date => Sun, 14 Aug 2022 03:55:19 GMT
+D, [2022-08-14T03:55:19.545982 #1310] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2022-08-14T03:55:19.546045 #1310] DEBUG -- : response-header: permissions-policy => interest-cohort=()
+D, [2022-08-14T03:55:19.546099 #1310] DEBUG -- : response-header: x-amz-rid => JY8QH2BQKJMCJVC62GC4
+D, [2022-08-14T03:55:19.546150 #1310] DEBUG -- : response-header: set-cookie => session-id=133-4085612-4035669; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:55:19 GMT; Path=/; Secure, session-id-time=2082787201l; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:55:19 GMT; Path=/; Secure, i18n-prefs=USD; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:55:19 GMT; Path=/, skin=noskin; path=/; domain=.amazon.com
+D, [2022-08-14T03:55:19.546201 #1310] DEBUG -- : response-header: content-encoding => gzip
+D, [2022-08-14T03:55:19.546250 #1310] DEBUG -- : response-header: x-xss-protection => 1;
+D, [2022-08-14T03:55:19.546297 #1310] DEBUG -- : response-header: expires => -1
+D, [2022-08-14T03:55:19.546345 #1310] DEBUG -- : response-header: x-ua-compatible => IE=edge
+D, [2022-08-14T03:55:19.546394 #1310] DEBUG -- : response-header: accept-ch-lifetime => 86400
+D, [2022-08-14T03:55:19.546440 #1310] DEBUG -- : response-header: pragma => no-cache
+D, [2022-08-14T03:55:19.546501 #1310] DEBUG -- : response-header: accept-ch => ect,rtt,downlink,device-memory,sec-ch-device-memory,viewport-width,sec-ch-viewport-width,dpr,sec-ch-dpr
+D, [2022-08-14T03:55:19.546553 #1310] DEBUG -- : response-header: content-language => en-US
+D, [2022-08-14T03:55:19.546600 #1310] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2022-08-14T03:55:19.546646 #1310] DEBUG -- : response-header: cache-control => no-cache
+D, [2022-08-14T03:55:19.546695 #1310] DEBUG -- : response-header: content-security-policy-report-only => default-src 'self' blob: https: data: mediastream: 'unsafe-eval' 'unsafe-inline';report-uri https://metrics.media-amazon.com/
+D, [2022-08-14T03:55:19.546744 #1310] DEBUG -- : response-header: strict-transport-security => max-age=47474747; includeSubDomains; preload
+D, [2022-08-14T03:55:19.546793 #1310] DEBUG -- : response-header: vary => Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+D, [2022-08-14T03:55:19.546841 #1310] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2022-08-14T03:55:19.546890 #1310] DEBUG -- : response-header: x-served-by => cache-sea4473-SEA
+D, [2022-08-14T03:55:19.546938 #1310] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2022-08-14T03:55:19.547092 #1310] DEBUG -- : Read 0 bytes (0 total)
+D, [2022-08-14T03:55:19.547182 #1310] DEBUG -- : Read 1378 bytes (1378 total)
+D, [2022-08-14T03:55:19.547262 #1310] DEBUG -- : Read 1378 bytes (2756 total)
+D, [2022-08-14T03:55:19.547340 #1310] DEBUG -- : Read 1378 bytes (4134 total)
+D, [2022-08-14T03:55:19.547417 #1310] DEBUG -- : Read 882 bytes (5016 total)
+D, [2022-08-14T03:55:19.608747 #1310] DEBUG -- : Read 0 bytes (5016 total)
+D, [2022-08-14T03:55:19.608907 #1310] DEBUG -- : Read 1378 bytes (6394 total)
+D, [2022-08-14T03:55:19.608997 #1310] DEBUG -- : Read 1378 bytes (7772 total)
+D, [2022-08-14T03:55:19.609073 #1310] DEBUG -- : Read 1378 bytes (9150 total)
+D, [2022-08-14T03:55:19.609147 #1310] DEBUG -- : Read 1378 bytes (10528 total)
+D, [2022-08-14T03:55:19.609215 #1310] DEBUG -- : Read 1378 bytes (11906 total)
+D, [2022-08-14T03:55:19.609338 #1310] DEBUG -- : Read 1378 bytes (13284 total)
+D, [2022-08-14T03:55:19.609405 #1310] DEBUG -- : Read 1378 bytes (14662 total)
+D, [2022-08-14T03:55:19.609476 #1310] DEBUG -- : Read 1378 bytes (16040 total)
+D, [2022-08-14T03:55:19.609548 #1310] DEBUG -- : Read 1378 bytes (17418 total)
+D, [2022-08-14T03:55:19.609618 #1310] DEBUG -- : Read 1378 bytes (18796 total)
+D, [2022-08-14T03:55:19.609692 #1310] DEBUG -- : Read 649 bytes (19445 total)
+D, [2022-08-14T03:55:19.651656 #1310] DEBUG -- : Read 0 bytes (19445 total)
+D, [2022-08-14T03:55:19.651785 #1310] DEBUG -- : Read 1378 bytes (20823 total)
+D, [2022-08-14T03:55:19.651854 #1310] DEBUG -- : Read 1378 bytes (22201 total)
+D, [2022-08-14T03:55:19.651927 #1310] DEBUG -- : Read 409 bytes (22610 total)
+D, [2022-08-14T03:55:19.653615 #1310] DEBUG -- : Read 0 bytes (22610 total)
+D, [2022-08-14T03:55:19.653761 #1310] DEBUG -- : Read 1378 bytes (23988 total)
+D, [2022-08-14T03:55:19.653843 #1310] DEBUG -- : Read 1378 bytes (25366 total)
+D, [2022-08-14T03:55:19.653933 #1310] DEBUG -- : Read 1378 bytes (26744 total)
+D, [2022-08-14T03:55:19.654015 #1310] DEBUG -- : Read 1378 bytes (28122 total)
+D, [2022-08-14T03:55:19.654079 #1310] DEBUG -- : Read 1378 bytes (29500 total)
+D, [2022-08-14T03:55:19.654143 #1310] DEBUG -- : Read 222 bytes (29722 total)
+D, [2022-08-14T03:55:19.670707 #1310] DEBUG -- : Read 0 bytes (29722 total)
+D, [2022-08-14T03:55:19.670817 #1310] DEBUG -- : Read 1378 bytes (31100 total)
+D, [2022-08-14T03:55:19.670887 #1310] DEBUG -- : Read 1378 bytes (32478 total)
+D, [2022-08-14T03:55:19.670966 #1310] DEBUG -- : Read 1378 bytes (33856 total)
+D, [2022-08-14T03:55:19.671036 #1310] DEBUG -- : Read 1378 bytes (35234 total)
+D, [2022-08-14T03:55:19.671187 #1310] DEBUG -- : Read 1378 bytes (36612 total)
+D, [2022-08-14T03:55:19.671263 #1310] DEBUG -- : Read 1378 bytes (37990 total)
+D, [2022-08-14T03:55:19.671336 #1310] DEBUG -- : Read 1378 bytes (39368 total)
+D, [2022-08-14T03:55:19.671387 #1310] DEBUG -- : Read 1378 bytes (40746 total)
+D, [2022-08-14T03:55:19.671452 #1310] DEBUG -- : Read 1378 bytes (42124 total)
+D, [2022-08-14T03:55:19.671515 #1310] DEBUG -- : Read 70 bytes (42194 total)
+D, [2022-08-14T03:55:19.671600 #1310] DEBUG -- : Read 0 bytes (42194 total)
+D, [2022-08-14T03:55:19.671670 #1310] DEBUG -- : Read 1378 bytes (43572 total)
+D, [2022-08-14T03:55:19.671731 #1310] DEBUG -- : Read 1378 bytes (44950 total)
+D, [2022-08-14T03:55:19.671790 #1310] DEBUG -- : Read 1378 bytes (46328 total)
+D, [2022-08-14T03:55:19.671858 #1310] DEBUG -- : Read 170 bytes (46498 total)
+D, [2022-08-14T03:55:19.671967 #1310] DEBUG -- : Read 0 bytes (46498 total)
+D, [2022-08-14T03:55:19.672094 #1310] DEBUG -- : Read 888 bytes (47386 total)
+D, [2022-08-14T03:55:19.713804 #1310] DEBUG -- : Read 0 bytes (47386 total)
+D, [2022-08-14T03:55:19.713941 #1310] DEBUG -- : Read 1378 bytes (48764 total)
+D, [2022-08-14T03:55:19.714011 #1310] DEBUG -- : Read 1378 bytes (50142 total)
+D, [2022-08-14T03:55:19.714086 #1310] DEBUG -- : Read 1378 bytes (51520 total)
+D, [2022-08-14T03:55:19.714148 #1310] DEBUG -- : Read 1378 bytes (52898 total)
+D, [2022-08-14T03:55:19.714213 #1310] DEBUG -- : Read 732 bytes (53630 total)
+D, [2022-08-14T03:55:19.714358 #1310] DEBUG -- : Read 0 bytes (53630 total)
+D, [2022-08-14T03:55:19.714424 #1310] DEBUG -- : Read 1378 bytes (55008 total)
+D, [2022-08-14T03:55:19.714540 #1310] DEBUG -- : Read 1378 bytes (56386 total)
+D, [2022-08-14T03:55:19.714632 #1310] DEBUG -- : Read 1293 bytes (57679 total)
+D, [2022-08-14T03:55:19.714748 #1310] DEBUG -- : Read 0 bytes (57679 total)
+D, [2022-08-14T03:55:19.714845 #1310] DEBUG -- : Read 78 bytes (57757 total)
+D, [2022-08-14T03:55:19.812385 #1310] DEBUG -- : Read 0 bytes (57757 total)
+D, [2022-08-14T03:55:19.812523 #1310] DEBUG -- : Read 1378 bytes (59135 total)
+D, [2022-08-14T03:55:19.812564 #1310] DEBUG -- : Read 198 bytes (59333 total)
+D, [2022-08-14T03:55:19.812703 #1310] DEBUG -- : Read 0 bytes (59333 total)
+D, [2022-08-14T03:55:19.812763 #1310] DEBUG -- : Read 1378 bytes (60711 total)
+D, [2022-08-14T03:55:19.812812 #1310] DEBUG -- : Read 1339 bytes (62050 total)
+D, [2022-08-14T03:55:19.813433 #1310] DEBUG -- : Read 0 bytes (62050 total)
+D, [2022-08-14T03:55:19.813501 #1310] DEBUG -- : Read 1089 bytes (63139 total)
+D, [2022-08-14T03:55:19.818098 #1310] DEBUG -- : Read 0 bytes (63139 total)
+D, [2022-08-14T03:55:19.818227 #1310] DEBUG -- : Read 2422 bytes (65561 total)
+D, [2022-08-14T03:55:19.820818 #1310] DEBUG -- : Read 0 bytes (65561 total)
+D, [2022-08-14T03:55:19.820918 #1310] DEBUG -- : Read 6294 bytes (71855 total)
+D, [2022-08-14T03:55:19.822995 #1310] DEBUG -- : Read 0 bytes (71855 total)
+D, [2022-08-14T03:55:19.823407 #1310] DEBUG -- : Read 12018 bytes (83873 total)
+D, [2022-08-14T03:55:19.823597 #1310] DEBUG -- : Read 0 bytes (83873 total)
+D, [2022-08-14T03:55:19.823677 #1310] DEBUG -- : Read 5044 bytes (88917 total)
+D, [2022-08-14T03:55:19.827353 #1310] DEBUG -- : Read 0 bytes (88917 total)
+D, [2022-08-14T03:55:19.827443 #1310] DEBUG -- : Read 8986 bytes (97903 total)
+D, [2022-08-14T03:55:19.828489 #1310] DEBUG -- : Read 0 bytes (97903 total)
+D, [2022-08-14T03:55:19.832822 #1310] DEBUG -- : Read 16368 bytes (114271 total)
+D, [2022-08-14T03:55:19.832960 #1310] DEBUG -- : Read 0 bytes (114271 total)
+D, [2022-08-14T03:55:19.833106 #1310] DEBUG -- : Read 12057 bytes (126328 total)
+D, [2022-08-14T03:55:19.833379 #1310] DEBUG -- : gzip response
+D, [2022-08-14T03:55:19.857009 #1310] DEBUG -- : saved cookie: session-id=133-4085612-4035669
+D, [2022-08-14T03:55:19.857211 #1310] DEBUG -- : saved cookie: session-id-time=2082787201l
+D, [2022-08-14T03:55:19.857368 #1310] DEBUG -- : saved cookie: i18n-prefs=USD
+D, [2022-08-14T03:55:19.857477 #1310] DEBUG -- : saved cookie: skin=noskin
+I, [2022-08-14T03:55:48.645922 #1408]  INFO -- : Net::HTTP::Get: /s?k=nike
+D, [2022-08-14T03:55:48.646047 #1408] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2022-08-14T03:55:48.646087 #1408] DEBUG -- : request-header: accept => */*
+D, [2022-08-14T03:55:48.646146 #1408] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2022-08-14T03:55:48.646206 #1408] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2022-08-14T03:55:48.646268 #1408] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2022-08-14T03:55:48.646318 #1408] DEBUG -- : request-header: host => www.amazon.com
+I, [2022-08-14T03:55:48.842434 #1408]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2022-08-14T03:55:48.842541 #1408] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2022-08-14T03:55:48.842568 #1408] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2022-08-14T03:55:48.842606 #1408] DEBUG -- : response-header: connection => keep-alive
+D, [2022-08-14T03:55:48.842648 #1408] DEBUG -- : response-header: server => Server
+D, [2022-08-14T03:55:48.842693 #1408] DEBUG -- : response-header: date => Sun, 14 Aug 2022 03:55:48 GMT
+D, [2022-08-14T03:55:48.842720 #1408] DEBUG -- : response-header: x-amz-rid => W7GVSK0JVQSQRKATMA5X
+D, [2022-08-14T03:55:48.842767 #1408] DEBUG -- : response-header: set-cookie => session-id=138-4015855-1700566; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:55:48 GMT; Path=/; Secure, session-id-time=2082787201l; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:55:48 GMT; Path=/; Secure, i18n-prefs=USD; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:55:48 GMT; Path=/
+D, [2022-08-14T03:55:48.842804 #1408] DEBUG -- : response-header: accept-ch => ect,rtt,downlink,device-memory,sec-ch-device-memory,viewport-width,sec-ch-viewport-width,dpr,sec-ch-dpr
+D, [2022-08-14T03:55:48.842856 #1408] DEBUG -- : response-header: pragma => no-cache
+D, [2022-08-14T03:55:48.842916 #1408] DEBUG -- : response-header: x-xss-protection => 1;
+D, [2022-08-14T03:55:48.842981 #1408] DEBUG -- : response-header: content-encoding => gzip
+D, [2022-08-14T03:55:48.843000 #1408] DEBUG -- : response-header: cache-control => no-cache
+D, [2022-08-14T03:55:48.843052 #1408] DEBUG -- : response-header: content-language => en-US
+D, [2022-08-14T03:55:48.843116 #1408] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2022-08-14T03:55:48.843152 #1408] DEBUG -- : response-header: accept-ch-lifetime => 86400
+D, [2022-08-14T03:55:48.843188 #1408] DEBUG -- : response-header: expires => -1
+D, [2022-08-14T03:55:48.843239 #1408] DEBUG -- : response-header: strict-transport-security => max-age=47474747; includeSubDomains; preload
+D, [2022-08-14T03:55:48.843292 #1408] DEBUG -- : response-header: vary => Content-Type,X-Amazon-Wtm-Tag-SP-Search-Secured-Port-Enabled,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+D, [2022-08-14T03:55:48.843331 #1408] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2022-08-14T03:55:48.843373 #1408] DEBUG -- : response-header: permissions-policy => interest-cohort=()
+D, [2022-08-14T03:55:48.843427 #1408] DEBUG -- : response-header: x-cache => Miss from cloudfront
+D, [2022-08-14T03:55:48.843480 #1408] DEBUG -- : response-header: via => 1.1 2afae0d44e2540f472c0635ab62c232a.cloudfront.net (CloudFront)
+D, [2022-08-14T03:55:48.843527 #1408] DEBUG -- : response-header: x-amz-cf-pop => HIO50-C1
+D, [2022-08-14T03:55:48.843568 #1408] DEBUG -- : response-header: x-amz-cf-id => 6MSWSOtZzbCcii2c9xkOVaM4yRk1neK5lZTQcI__DY9otGwks4DOxQ==
+D, [2022-08-14T03:55:48.843697 #1408] DEBUG -- : Read 4989 bytes (4989 total)
+D, [2022-08-14T03:55:48.920805 #1408] DEBUG -- : Read 16378 bytes (21367 total)
+D, [2022-08-14T03:55:48.921537 #1408] DEBUG -- : Read 5366 bytes (26733 total)
+D, [2022-08-14T03:55:48.967094 #1408] DEBUG -- : Read 14778 bytes (41511 total)
+D, [2022-08-14T03:55:49.201359 #1408] DEBUG -- : Read 396 bytes (41907 total)
+D, [2022-08-14T03:55:49.205340 #1408] DEBUG -- : Read 413 bytes (42320 total)
+D, [2022-08-14T03:55:49.206305 #1408] DEBUG -- : Read 1249 bytes (43569 total)
+D, [2022-08-14T03:55:49.206434 #1408] DEBUG -- : Read 4175 bytes (47744 total)
+D, [2022-08-14T03:55:49.744604 #1408] DEBUG -- : Read 264 bytes (48008 total)
+D, [2022-08-14T03:55:49.748971 #1408] DEBUG -- : Read 4101 bytes (52109 total)
+D, [2022-08-14T03:55:49.806750 #1408] DEBUG -- : Read 2381 bytes (54490 total)
+D, [2022-08-14T03:55:49.807018 #1408] DEBUG -- : Read 2641 bytes (57131 total)
+D, [2022-08-14T03:55:49.807325 #1408] DEBUG -- : Read 2481 bytes (59612 total)
+D, [2022-08-14T03:55:49.807757 #1408] DEBUG -- : Read 4707 bytes (64319 total)
+D, [2022-08-14T03:55:49.870708 #1408] DEBUG -- : Read 744 bytes (65063 total)
+D, [2022-08-14T03:55:49.871432 #1408] DEBUG -- : Read 1195 bytes (66258 total)
+D, [2022-08-14T03:55:49.872027 #1408] DEBUG -- : Read 639 bytes (66897 total)
+D, [2022-08-14T03:55:49.872285 #1408] DEBUG -- : Read 475 bytes (67372 total)
+D, [2022-08-14T03:55:49.872786 #1408] DEBUG -- : Read 125 bytes (67497 total)
+D, [2022-08-14T03:55:49.872899 #1408] DEBUG -- : Read 374 bytes (67871 total)
+D, [2022-08-14T03:55:49.873768 #1408] DEBUG -- : Read 260 bytes (68131 total)
+D, [2022-08-14T03:55:49.874059 #1408] DEBUG -- : Read 294 bytes (68425 total)
+D, [2022-08-14T03:55:49.874133 #1408] DEBUG -- : Read 617 bytes (69042 total)
+D, [2022-08-14T03:55:49.874556 #1408] DEBUG -- : Read 145 bytes (69187 total)
+D, [2022-08-14T03:55:49.874648 #1408] DEBUG -- : Read 378 bytes (69565 total)
+D, [2022-08-14T03:55:49.875202 #1408] DEBUG -- : Read 334 bytes (69899 total)
+D, [2022-08-14T03:55:49.875436 #1408] DEBUG -- : Read 969 bytes (70868 total)
+D, [2022-08-14T03:55:49.875617 #1408] DEBUG -- : Read 150 bytes (71018 total)
+D, [2022-08-14T03:55:49.875746 #1408] DEBUG -- : Read 176 bytes (71194 total)
+D, [2022-08-14T03:55:49.875875 #1408] DEBUG -- : Read 65 bytes (71259 total)
+D, [2022-08-14T03:55:49.877388 #1408] DEBUG -- : Read 1329 bytes (72588 total)
+D, [2022-08-14T03:55:49.933885 #1408] DEBUG -- : Read 12763 bytes (85351 total)
+D, [2022-08-14T03:55:49.935258 #1408] DEBUG -- : Read 12820 bytes (98171 total)
+D, [2022-08-14T03:55:49.937637 #1408] DEBUG -- : Read 2408 bytes (100579 total)
+D, [2022-08-14T03:55:49.943381 #1408] DEBUG -- : Read 16378 bytes (116957 total)
+D, [2022-08-14T03:55:49.945060 #1408] DEBUG -- : Read 16384 bytes (133341 total)
+D, [2022-08-14T03:55:49.946805 #1408] DEBUG -- : Read 15147 bytes (148488 total)
+D, [2022-08-14T03:55:50.000251 #1408] DEBUG -- : Read 16378 bytes (164866 total)
+D, [2022-08-14T03:55:50.000373 #1408] DEBUG -- : Read 2585 bytes (167451 total)
+D, [2022-08-14T03:55:50.000664 #1408] DEBUG -- : gzip response
+D, [2022-08-14T03:55:50.054480 #1408] DEBUG -- : saved cookie: session-id=138-4015855-1700566
+D, [2022-08-14T03:55:50.054670 #1408] DEBUG -- : saved cookie: session-id-time=2082787201l
+D, [2022-08-14T03:55:50.054817 #1408] DEBUG -- : saved cookie: i18n-prefs=USD
+I, [2022-08-14T03:56:04.111666 #1431]  INFO -- : Net::HTTP::Get: /s?k=nike
+D, [2022-08-14T03:56:04.111763 #1431] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2022-08-14T03:56:04.111789 #1431] DEBUG -- : request-header: accept => */*
+D, [2022-08-14T03:56:04.111805 #1431] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2022-08-14T03:56:04.111834 #1431] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2022-08-14T03:56:04.111866 #1431] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2022-08-14T03:56:04.111882 #1431] DEBUG -- : request-header: host => www.amazon.com
+I, [2022-08-14T03:56:04.292900 #1431]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2022-08-14T03:56:04.293006 #1431] DEBUG -- : response-header: server => Server
+D, [2022-08-14T03:56:04.293052 #1431] DEBUG -- : response-header: content-type => text/html;charset=UTF-8
+D, [2022-08-14T03:56:04.293091 #1431] DEBUG -- : response-header: x-amz-rid => H2BRGH63SJZ0WAK5891Y
+D, [2022-08-14T03:56:04.293128 #1431] DEBUG -- : response-header: expires => -1
+D, [2022-08-14T03:56:04.293179 #1431] DEBUG -- : response-header: accept-ch => ect,rtt,downlink,device-memory,sec-ch-device-memory,viewport-width,sec-ch-viewport-width,dpr,sec-ch-dpr
+D, [2022-08-14T03:56:04.293234 #1431] DEBUG -- : response-header: content-encoding => gzip
+D, [2022-08-14T03:56:04.293285 #1431] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2022-08-14T03:56:04.293338 #1431] DEBUG -- : response-header: content-language => en-US
+D, [2022-08-14T03:56:04.293388 #1431] DEBUG -- : response-header: cache-control => no-cache
+D, [2022-08-14T03:56:04.293421 #1431] DEBUG -- : response-header: content-security-policy-report-only => default-src 'self' blob: https: data: mediastream: 'unsafe-eval' 'unsafe-inline';report-uri https://metrics.media-amazon.com/
+D, [2022-08-14T03:56:04.293461 #1431] DEBUG -- : response-header: x-xss-protection => 1;
+D, [2022-08-14T03:56:04.293522 #1431] DEBUG -- : response-header: pragma => no-cache
+D, [2022-08-14T03:56:04.293573 #1431] DEBUG -- : response-header: accept-ch-lifetime => 86400
+D, [2022-08-14T03:56:04.293624 #1431] DEBUG -- : response-header: strict-transport-security => max-age=47474747; includeSubDomains; preload
+D, [2022-08-14T03:56:04.293678 #1431] DEBUG -- : response-header: vary => Content-Type,X-Amazon-Wtm-Tag-SP-Search-Secured-Port-Enabled,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+D, [2022-08-14T03:56:04.293718 #1431] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2022-08-14T03:56:04.293745 #1431] DEBUG -- : response-header: permissions-policy => interest-cohort=()
+D, [2022-08-14T03:56:04.293786 #1431] DEBUG -- : response-header: date => Sun, 14 Aug 2022 03:56:04 GMT
+D, [2022-08-14T03:56:04.293839 #1431] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2022-08-14T03:56:04.293890 #1431] DEBUG -- : response-header: connection => keep-alive, Transfer-Encoding
+D, [2022-08-14T03:56:04.293954 #1431] DEBUG -- : response-header: set-cookie => session-id=146-2789409-8908956; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:56:04 GMT; Path=/; Secure, session-id-time=2082787201l; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:56:04 GMT; Path=/; Secure, i18n-prefs=USD; Domain=.amazon.com; Expires=Mon, 14-Aug-2023 03:56:04 GMT; Path=/
+D, [2022-08-14T03:56:04.294119 #1431] DEBUG -- : Read 4988 bytes (4988 total)
+D, [2022-08-14T03:56:04.308177 #1431] DEBUG -- : Read 90 bytes (5078 total)
+D, [2022-08-14T03:56:04.309778 #1431] DEBUG -- : Read 16374 bytes (21452 total)
+D, [2022-08-14T03:56:04.310059 #1431] DEBUG -- : Read 46 bytes (21498 total)
+D, [2022-08-14T03:56:04.310697 #1431] DEBUG -- : Read 90 bytes (21588 total)
+D, [2022-08-14T03:56:04.310809 #1431] DEBUG -- : Read 6646 bytes (28234 total)
+D, [2022-08-14T03:56:04.360790 #1431] DEBUG -- : Read 90 bytes (28324 total)
+D, [2022-08-14T03:56:04.362330 #1431] DEBUG -- : Read 14682 bytes (43006 total)
+D, [2022-08-14T03:56:04.631857 #1431] DEBUG -- : Read 90 bytes (43096 total)
+D, [2022-08-14T03:56:04.632049 #1431] DEBUG -- : Read 308 bytes (43404 total)
+D, [2022-08-14T03:56:04.635327 #1431] DEBUG -- : Read 90 bytes (43494 total)
+D, [2022-08-14T03:56:04.635406 #1431] DEBUG -- : Read 324 bytes (43818 total)
+D, [2022-08-14T03:56:04.636755 #1431] DEBUG -- : Read 90 bytes (43908 total)
+D, [2022-08-14T03:56:04.636848 #1431] DEBUG -- : Read 5234 bytes (49142 total)
+D, [2022-08-14T03:56:05.226678 #1431] DEBUG -- : Read 90 bytes (49232 total)
+D, [2022-08-14T03:56:05.228288 #1431] DEBUG -- : Read 16374 bytes (65606 total)
+D, [2022-08-14T03:56:05.228401 #1431] DEBUG -- : Read 5693 bytes (71299 total)
+D, [2022-08-14T03:56:05.229036 #1431] DEBUG -- : Read 90 bytes (71389 total)
+D, [2022-08-14T03:56:05.229101 #1431] DEBUG -- : Read 962 bytes (72351 total)
+D, [2022-08-14T03:56:05.229315 #1431] DEBUG -- : Read 90 bytes (72441 total)
+D, [2022-08-14T03:56:05.229377 #1431] DEBUG -- : Read 698 bytes (73139 total)
+D, [2022-08-14T03:56:05.235925 #1431] DEBUG -- : Read 90 bytes (73229 total)
+D, [2022-08-14T03:56:05.236075 #1431] DEBUG -- : Read 5514 bytes (78743 total)
+D, [2022-08-14T03:56:05.265350 #1431] DEBUG -- : Read 90 bytes (78833 total)
+D, [2022-08-14T03:56:05.265441 #1431] DEBUG -- : Read 3930 bytes (82763 total)
+D, [2022-08-14T03:56:05.268981 #1431] DEBUG -- : Read 90 bytes (82853 total)
+D, [2022-08-14T03:56:05.269821 #1431] DEBUG -- : Read 7302 bytes (90155 total)
+D, [2022-08-14T03:56:05.271988 #1431] DEBUG -- : Read 90 bytes (90245 total)
+D, [2022-08-14T03:56:05.272076 #1431] DEBUG -- : Read 3398 bytes (93643 total)
+D, [2022-08-14T03:56:05.273565 #1431] DEBUG -- : Read 90 bytes (93733 total)
+D, [2022-08-14T03:56:05.273640 #1431] DEBUG -- : Read 3882 bytes (97615 total)
+D, [2022-08-14T03:56:05.274808 #1431] DEBUG -- : Read 90 bytes (97705 total)
+D, [2022-08-14T03:56:05.274996 #1431] DEBUG -- : Read 1481 bytes (99186 total)
+D, [2022-08-14T03:56:05.278283 #1431] DEBUG -- : Read 90 bytes (99276 total)
+D, [2022-08-14T03:56:05.279906 #1431] DEBUG -- : Read 2595 bytes (101871 total)
+D, [2022-08-14T03:56:05.280027 #1431] DEBUG -- : Read 90 bytes (101961 total)
+D, [2022-08-14T03:56:05.280089 #1431] DEBUG -- : Read 2513 bytes (104474 total)
+D, [2022-08-14T03:56:05.283596 #1431] DEBUG -- : Read 90 bytes (104564 total)
+D, [2022-08-14T03:56:05.283677 #1431] DEBUG -- : Read 2090 bytes (106654 total)
+D, [2022-08-14T03:56:05.303647 #1431] DEBUG -- : Read 90 bytes (106744 total)
+D, [2022-08-14T03:56:05.305324 #1431] DEBUG -- : Read 16374 bytes (123118 total)
+D, [2022-08-14T03:56:05.305382 #1431] DEBUG -- : Read 2726 bytes (125844 total)
+D, [2022-08-14T03:56:05.309671 #1431] DEBUG -- : Read 90 bytes (125934 total)
+D, [2022-08-14T03:56:05.311394 #1431] DEBUG -- : Read 16134 bytes (142068 total)
+D, [2022-08-14T03:56:05.311558 #1431] DEBUG -- : Read 89 bytes (142157 total)
+D, [2022-08-14T03:56:05.311647 #1431] DEBUG -- : Read 4075 bytes (146232 total)
+D, [2022-08-14T03:56:05.313471 #1431] DEBUG -- : Read 90 bytes (146322 total)
+D, [2022-08-14T03:56:05.313564 #1431] DEBUG -- : Read 1805 bytes (148127 total)
+D, [2022-08-14T03:56:05.347975 #1431] DEBUG -- : Read 90 bytes (148217 total)
+D, [2022-08-14T03:56:05.348950 #1431] DEBUG -- : Read 16374 bytes (164591 total)
+D, [2022-08-14T03:56:05.349841 #1431] DEBUG -- : Read 8202 bytes (172793 total)
+D, [2022-08-14T03:56:05.350767 #1431] DEBUG -- : Read 16374 bytes (189167 total)
+D, [2022-08-14T03:56:05.351701 #1431] DEBUG -- : Read 8202 bytes (197369 total)
+D, [2022-08-14T03:56:05.351791 #1431] DEBUG -- : Read 3514 bytes (200883 total)
+D, [2022-08-14T03:56:05.352102 #1431] DEBUG -- : gzip response
+D, [2022-08-14T03:56:05.421747 #1431] DEBUG -- : saved cookie: session-id=146-2789409-8908956
+D, [2022-08-14T03:56:05.422055 #1431] DEBUG -- : saved cookie: session-id-time=2082787201l
+D, [2022-08-14T03:56:05.422322 #1431] DEBUG -- : saved cookie: i18n-prefs=USD

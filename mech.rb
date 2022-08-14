@@ -10,27 +10,25 @@ class Gen_mech
     @urls = urls
     @mech = Mechanize.new agentid
     @mech.user_agent_alias = 'Mac Safari'
-    if cookies == true
-      @mech.log = Logger.new "mech.log"
-    end
+    @mech.log = Logger.new 'mech.log' if cookies == true
   end
 
-  def return_obj()
-    #returns an array of mechanized obj from urls
+  def return_obj
+    # returns an array of mechanized obj from urls
     mech_array = []
     @urls.each do |url|
       mech_array << @mech.get(url)
     end
-    return mech_array
+    mech_array
   end
 
-  def generate_html_body()
+  def generate_html_body
     @urls.each do |url|
       puts @mech.get(url).body
     end
   end
 
-  def parse_for_links()
+  def parse_for_links
     # 2d dict for {ogurls => {linkname:href...}...}
     sitesfromurls = {}
     @urls.each do |url|
@@ -40,57 +38,37 @@ class Gen_mech
       end
       sitesfromurls[url] = urlspersite
     end
-    return sitesfromurls
+    sitesfromurls
   end
 
-  def parse_for_class(tag, classname = "")
+  def hard_parse_for_class(tag, classname, classonly)
     # returns an array of element text values from a given tag and css classname
     # 2d dict for {ogurls => {itemname:price...}...}
     pricesfromurls = {}
     @urls.each do |url|
-
-
-      if classname != ""
-        ele = @mech.get(url).css("#{tag}.#{classname}")
-      else
-        ele = @mech.get(url).css("#{tag}")
-      end
-
-      puts ele
       unfiltered_array = []
-      # puts ele
-      ele.each do |item|
+      ele = @mech.get(url)
 
-        unfiltered_array << item
-      end
-      # puts unfiltered_array.inspect
-      pricesfromurls[url] = unfiltered_array
-    end
-  return pricesfromurls
-end
+      elenew = if (classname != '') && (tag != '')
 
-def hard_parse_for_class(tag, classname = "")
-    # returns an array of element text values from a given tag and css classname
-    # 2d dict for {ogurls => {itemname:price...}...}
-    pricesfromurls = {}
-    @urls.each do |url|
+                 ele.search("#{tag}.#{classname}")
+               elsif classonly == true
 
-      if classname != ""
-        ele = @mech.get(url).css("#{tag}.#{classname}")
-      else
-        ele = @mech.get(url).css("#{tag}")
-      end
+                 ele.search(".#{classname}")
+               elsif tag.to_s == ''
+                 ele.search('html')
+               else
+                 ele.search(tag.to_s)
+               end
 
-      puts ele
-      unfiltered_array = []
-      # puts ele
-      ele.each do |item|
-
+      # puts elenew
+      # puts elenew
+      elenew.each do |item|
         unfiltered_array << item.text
       end
       # puts unfiltered_array.inspect
       pricesfromurls[url] = unfiltered_array
     end
-    return pricesfromurls
-end
+    pricesfromurls
+  end
 end
